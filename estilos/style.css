@@ -4,45 +4,79 @@
 
 #000000 #5A00C2 #470075 #310048 #00F518
 */ 
+/*
+#F079F2
+#7326BF
+#9538F2
+#090126
+#13F24B */
+* {
+    margin: 0;
+    padding: 0;
+} 
 
 body{
 
     background-image: linear-gradient(to bottom,
-     #000000 75% , #030007, #15002c, #390079 );     
+     #000000 75% , #090126, #15002c, #390079 );     
     margin: 5px;
 }
 header{
-    background-color:#55017c1c;
-    padding: 5px 
+    background-color:#3900793f;
+    padding: 15px; 
+    margin: 15px;
+    border-radius: 15px;
+    
+    
 }
+.menu {
+    display: flex;
+    gap: 15px;
+
+}
+.hr-vertical{
+    border-color: #390079;
+    margin: 0px;
+    width: 0px;
+}
+
 hr{
-    border-color: #380079;
+    border-color: #390079;
+    margin: auto;
+    width: 50%;
+    
     
 }
 
-ul{
+li{
     font-family: sans-serif;
-    color: #ffffff; 
-    padding-left: 15px;
-}
+    }
 
-li >a{
-
+a{
     color: #ffffff;
 }
 li >a:hover{
     color: #8418ff;
 }
 
-.conteudo{
+#conteudo{
     background-color: #5200af28;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 15px 20px #00000059;
+    
 }  
 .titulo{
     background-color: #390079a8;
+    margin: 10px 15px 0px 15px;
+    border-radius: 10px;
+    box-shadow: 7px 10px 20px #00000057;
     
 }
 
 h1{
+    
     padding: 5px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -51,10 +85,13 @@ h1{
     
 }
 .card-principal{
+    
     margin: auto;   
     display: flex;
     width: 1000px;
     height: 600px;
+    align-items: center;
+    
 
 }
 
@@ -67,12 +104,14 @@ p{
 }
 
 img{
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 280px;
+    max-height: 280px;
     border-radius: 5%;
    }
- .projeto1{
-    height: 600px;
-    width: 1000px;
 
- }  
+#contato{
+    margin: 50px;
+    color: #fff;
+}
+
+ 
